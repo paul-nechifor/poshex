@@ -1,0 +1,24 @@
+{
+    "name": "Poshex",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Plain old semantic HTML extension.",
+    "icons": {
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
+    "page_action": {
+        "default_icon": "img/icon16.png"
+    },
+    "background": {
+        "scripts": ["mainScript.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "file:///*"
+    ]
+}

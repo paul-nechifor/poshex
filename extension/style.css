@@ -1,0 +1,37 @@
+header {background-color:#285DA7; background:-webkit-linear-gradient(top,#3E7CD4 0,#2D6DC7 100%); color:#FFF; border-bottom:1px solid #447DCE}
+#non-header {border-top:1px solid #1F539C; min-height: 800px}
+#mainNav .span10 {box-shadow: 0 0 40px #CCC;}
+h1 {text-shadow:#0F1FCC 2px 2px}
+
+
+h3 {display:inline-block; margin-right:10px}
+code,pre{font-family:Monaco,Menlo,Consolas,monospace}
+
+.highlight{background-color:yellow}
+
+/*mainNav {width:160px; position:fixed; top:10px; left:10px}*/
+#mainNav ul {margin-top:32px}
+#mainNav .active a {color:#FFF; background:#08C; border-color:#08C}
+#mainNav ul .parent {font-size:14px}
+#mainNav ul .child {font-size:12px}
+#mainNav ul .child a {padding-left:24px}
+/*#mainContent {margin-left:180px}*/
+
+img#logo {width:128px; height:128px; display:block; margin:0 auto;}
+
+#expandSourceCode {margin-top:-20px; float:right}
+
+
+div.item {margin-top:18px;}
+.properties {width:100%}
+.properties td:first-child {min-width:160px} 
+.properties td {vertical-align:top}
+.properties tr {border-top:1px solid #DDD}
+
+div.graph {border:1px solid #DDD}
+
+/* D3 graph SVG style */
+.node {fill:#08F; }
+.link {stroke: #ccc; }
+.linkg text {pointer-events: none; font: 10px sans-serif; fill:#F55}
+.node text {pointer-events: none; font: 10px sans-serif; fill:#000;}

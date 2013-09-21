@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/google-code-prettify/prettify.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="lib/jquery-1.8.3.min.js"></script>
+    <script src="lib/rdfQuery/jquery.uri.js"></script>
+    <script src="lib/rdfQuery/jquery.xmlns.js"></script>
+    <script src="lib/rdfQuery/jquery.datatype.js"></script>
+    <script src="lib/rdfQuery/jquery.curie.js"></script>
+    <script src="lib/rdfQuery/jquery.json-1.3.min.js"></script>
+    <script src="lib/rdfQuery/jquery.rdfquery.core.min-1.0.js"></script>
+    <script src="lib/rdfQuery/jquery.rdfquery.rdfa.min-1.0.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/beautify-html.js"></script>
+    <script src="lib/google-code-prettify/prettify.js"></script>
+    <script src="lib/d3.v3.min.js"></script>
+    <script src="page.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="span2">
+            <img src="img/icon128.png" alt="Poshex" id="logo"/>
+          </div>
+          <div class="span10">
+            <h1></h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="non-header">
+      <div class="container">
+        <div class="row">
+          <div id="mainNav" class="span2">
+            <ul class="nav nav-tabs nav-stacked">
+              <li class="parent active"><a href="#sourceCodeH2">Source Code</a></li>
+            </ul>
+          </div>
+          <div class="span10" id="mainContent">
+            <div>
+              <h2 id="sourceCodeH2">Source Code</h2>
+              <pre id="sourceCode" class="prettyprint linenums"></pre>
+              <button id="expandSourceCode" class="btn" type="button">
+                <i class="icon-chevron-down"></i></button>
+              <div style="clear:both"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

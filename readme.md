@@ -1,3 +1,7 @@
+# This repository has been moved to [gitlab.com/paul-nechifor/poshex](http://gitlab.com/paul-nechifor/poshex).
+
+Old readme:
+
 # Poshex
 
 Poshex (Plain Old Semantic HTML Extension) is an extension for Google Chrome
